@@ -4,6 +4,6 @@ enabled: false
 flag: FireToggleTemp
 conditions:
   - value:
-      - percentage: 100
+      - percentage: 80
         option: true
 value: false
