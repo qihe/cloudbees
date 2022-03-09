@@ -15,5 +15,5 @@ conditions:
         option: '1'
   - group:
       name: betaUser
-    value: '1'
+    value: null
 value: '1'
