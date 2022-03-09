@@ -5,5 +5,5 @@ availableValues:
   - light
   - dark
 conditions:
-  - value: light
-value: dark
+  - value: dark
+value: light
