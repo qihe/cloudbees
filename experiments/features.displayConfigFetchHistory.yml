@@ -4,4 +4,8 @@ labels:
   - labelFF
 enabled: false
 flag: features.displayConfigFetchHistory
+conditions:
+  - group:
+      name: betaUser
+    value: true
 value: false
