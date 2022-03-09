@@ -1,4 +1,8 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
 flag: enableTutorial
-value: true
+conditions:
+  - group:
+      name: betaUser
+    value: true
+value: false
