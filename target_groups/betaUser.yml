@@ -3,8 +3,9 @@ name: betaUser
 operator: or
 conditions:
   - operator: in-array
-    property: rox.language
+    property: FFname
     operand:
-      - chn
-      - us
-      - ita
+      - '1'
+      - '2'
+      - '3'
+      - '4'
