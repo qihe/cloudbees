@@ -1,6 +1,10 @@
 type: target-group
 name: betaUser
+operator: or
 conditions:
-  - operator: ne
+  - operator: in-array
     property: rox.language
-    operand: EN
+    operand:
+      - chn
+      - us
+      - ita
