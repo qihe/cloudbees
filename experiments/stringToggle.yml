@@ -7,8 +7,13 @@ availableValues:
   - '1'
 conditions:
   - value:
-      - percentage: 50
+      - percentage: 33
         option: '2'
-      - percentage: 50
+      - percentage: 33
         option: '3'
+      - percentage: 34
+        option: '1'
+  - group:
+      name: betaUser
+    value: '1'
 value: '1'
