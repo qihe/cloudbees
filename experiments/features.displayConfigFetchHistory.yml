@@ -1,5 +1,7 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
+labels:
+  - labelFF
 enabled: false
 flag: features.displayConfigFetchHistory
 value: false
