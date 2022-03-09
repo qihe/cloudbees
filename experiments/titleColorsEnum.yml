@@ -1,0 +1,7 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+flag: titleColorsEnum
+availableValues:
+  - YELLOW
+  - GREEN
+  - BLUE
