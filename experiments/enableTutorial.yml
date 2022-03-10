@@ -2,7 +2,12 @@
 type: experiment
 flag: enableTutorial
 conditions:
-  - group:
-      name: betaUser
+  - value: false
+  - value: false
+  - value: false
+  - value: false
+  - dependency:
+      flag: specialNumber
+      value: '2.71'
     value: true
 value: false
