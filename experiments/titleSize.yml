@@ -1,0 +1,16 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: titleSize
+availableValues:
+  - 24
+  - 18
+  - 14
+conditions:
+  - group:
+      name: betaUser
+    value:
+      - percentage: 50
+        option: 24
+      - percentage: 50
+        option: 18
